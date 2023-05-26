@@ -1,0 +1,23 @@
+body {
+    background-image: linear-gradient(rgb(0, 132, 255),rgb(25, 56, 143)
+    );
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+  }
+.Frase{
+    padding: 10px 8px;
+    width: 50px;
+    color: rgb(0, 0, 0);
+    background: rgb(3, 126, 54);
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    
+}
+
+.Frase:hover{
+    background: rgb(51, 255, 0);
+    transition: background 0.2s;
+}
