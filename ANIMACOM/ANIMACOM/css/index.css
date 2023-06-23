@@ -1,23 +1,28 @@
-body {
-    background-image: linear-gradient(rgb(0, 132, 255),rgb(25, 56, 143)
-    );
-    background-size: 1920px 1080px;
-    background-repeat: no-repeat;
-  }
-.Frase{
-    padding: 10px 8px;
-    width: 50px;
-    color: rgb(0, 0, 0);
-    background: rgb(3, 126, 54);
-    border: 1px solid black;
-    border-radius: 5px;
-    text-align: center;
-    user-select: none;
-    cursor: pointer;
-    
+@font-face {
+  font-family: "Fonte1";
+  src: url("../fonts/Anton-Regular.ttf");
 }
 
-.Frase:hover{
-    background: rgb(51, 255, 0);
-    transition: background 0.2s;
+body {
+  margin: 0px;
+  padding: 0px;
 }
+
+.fundo {
+    background-image: url("../Fundo.jpg");
+    width: 100vw;
+    height:fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .texto {
+    font-family: "Fonte1";
+    text-align: center;
+  }
+
+  .imagem 
+  {
+    margin-left: 42%;
+  }
+
